@@ -1,0 +1,41 @@
+# Arquivos gerados pela aplicação
+dist/
+build/
+out/
+
+# Dependências instaladas via npm ou yarn
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de configuração específicos do ambiente
+config/*.env
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de compilação TypeScript
+*.js.map
+
+# Arquivos de dependências de desenvolvimento
+devDependencies/
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos que contenham chaves de API ou senhas sensíveis
+# Certifique-se de NUNCA versionar esses arquivos!
+secrets.json
+credentials.json
+
+# Arquivos gerados pelo editor de código (Visual Studio Code, por exemplo)
+.vscode/
+*.code-workspace
+
+# Dependendo do seu editor e configuração de projeto, você pode adicionar mais
+# arquivos e pastas específicos do seu ambiente de desenvolvimento aqui.
